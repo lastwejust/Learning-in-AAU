@@ -12,7 +12,7 @@ import re
 import urllib.parse
 
 OWNER = "lastwejust"
-REPO = "Leaning-in-AAU"
+REPO = "Learning-in-AAU"
 BRANCH = "main"
 GH_BLOB = f"https://github.com/{OWNER}/{REPO}/blob/{BRANCH}"
 

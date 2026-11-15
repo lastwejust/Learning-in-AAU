@@ -95,7 +95,7 @@ validation:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/lastwejust/Leaning-in-AAU
+      link: https://github.com/lastwejust/Learning-in-AAU
       name: GitHub 仓库
     - icon: material/email-outline
       link: mailto:zhang.x.w@ahau.edu.cn

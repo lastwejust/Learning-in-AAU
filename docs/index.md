@@ -5,7 +5,7 @@
   <p>课件、笔记、实验报告、往年试卷，一个地方找齐。</p>
   <div class="aau-actions">
     <a class="aau-btn aau-btn--solid" href="01-使用指南/">开始找资料</a>
-    <a class="aau-btn aau-btn--ghost" href="https://github.com/lastwejust/Leaning-in-AAU">打开 GitHub 仓库</a>
+    <a class="aau-btn aau-btn--ghost" href="https://github.com/lastwejust/Learning-in-AAU">打开 GitHub 仓库</a>
   </div>
 </div>
 
@@ -95,7 +95,7 @@
 | 只想投资料 | [投稿方式](03-参与共建.md#submit)：不用会 Git，不用加权限 |
 | 想长期维护 | [共创者（欢迎自荐）](03-参与共建.md#cobuild) |
 | 不会 GitHub | 发邮件到 [zhang.x.w@ahau.edu.cn](mailto:zhang.x.w@ahau.edu.cn)，我来代传 |
-| 发现问题 | 到 [Issues](https://github.com/lastwejust/Leaning-in-AAU/issues) 说一声 |
+| 发现问题 | 到 [Issues](https://github.com/lastwejust/Learning-in-AAU/issues) 说一声 |
 
 ## 先看这三页
 
