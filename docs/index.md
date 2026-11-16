@@ -1,59 +1,127 @@
 <div class="aau-hero">
   <span class="aau-tagline">非官方 · 永久免费</span>
   <h1>安农课程资料库</h1>
-  <p class="aau-sub">Leaning in AAU</p>
+  <p class="aau-sub">Learning in AAU</p>
   <p>课件、笔记、实验报告、往年试卷，一个地方找齐。</p>
   <div class="aau-actions">
-    <a class="aau-btn aau-btn--solid" href="01-使用指南/">开始找资料</a>
-    <a class="aau-btn aau-btn--ghost" href="https://github.com/lastwejust/Learning-in-AAU">打开 GitHub 仓库</a>
+    <a class="aau-btn aau-btn--solid" href="06-课程索引/">开始找资料</a>
+    <a class="aau-btn aau-btn--ghost" href="https://czy1326.github.io/AHAU-Study-Hub/" target="_blank" rel="noopener">园艺学院专区</a>
   </div>
 </div>
 
-## 30 秒找到你要的东西
+<div class="aau-callout">
+  <div class="aau-callout-title">园艺学院的同学看这里</div>
+  <p>园艺学院有单独的课程资料站，专业课都在那边，由启橙学长整理维护。</p>
+  <p><a href="https://czy1326.github.io/AHAU-Study-Hub/" target="_blank" rel="noopener">https://czy1326.github.io/AHAU-Study-Hub/</a></p>
+  <p class="aau-callout-thanks">感谢启橙学长的整理与分享。</p>
+</div>
+
+## 开始找资料
+
+点下面任意一个入口，就能看到全部文件并直接下载。
 
 <div class="grid cards" markdown>
 
--   :material-numeric-1-circle:{ .lg .middle } **进分类**
+-   :material-format-list-bulleted:{ .lg .middle } **课程索引（推荐）**
 
     ---
 
-    按 `00`～`07` 找到你的学院
+    一页列出所有课程，点课程名展开，点「下载」取文件
 
-    [:octicons-arrow-right-24: 分类说明](02-分类与命名.md)
+    [:octicons-arrow-right-24: 打开课程索引](06-课程索引.md)
 
--   :material-numeric-2-circle:{ .lg .middle } **找课程**
-
-    ---
-
-    学院 → 课程 → 资料类型
-
-    [:octicons-arrow-right-24: 课程索引](06-课程索引.md)
-
--   :material-numeric-3-circle:{ .lg .middle } **下载**
+-   :material-school-outline:{ .lg .middle } **按学院找**
 
     ---
 
-    打开文件，点右上角下载按钮
+    知道自己是哪个学院，直接从下面的学院入口进
 
-    [:octicons-arrow-right-24: 下载方法](01-使用指南.md#download)
+    [:octicons-arrow-down-24: 见下方学院入口](#schools)
+
+-   :material-magnify:{ .lg .middle } **直接搜课程名**
+
+    ---
+
+    在课程索引页按 `Ctrl + F`（手机用浏览器菜单里的“查找”）
+
+    [:octicons-arrow-right-24: 怎么搜](01-使用指南.md#find)
 
 </div>
 
-## 仓库地图
+<a id="schools"></a>
 
-| 编号 | 分类 | 包括 |
-| :--- | :--- | :--- |
-| `00` | **公共与平台课** | 思政、大学英语、信息技术、高等数学、大学物理、生物化学、土壤学 |
-| `01` | **农学** | 农学院、植保、园艺、林学与园林、动科、动医、茶业、资环（涉农）、材化（理科）、食品与营养 |
-| `02` | **工学** | 智能制造、机械与车辆、材化（工科）、资环（工科）、人工智能、电子与电气 |
-| `03` | **理学** | 生命科学、生物制造 |
-| `04` | **经济管理学院** | 经管类课程 |
-| `05` | **人文社会科学学院** | 人文社科类课程 |
-| `06` | **马克思主义学院** | 马院专业课程（思政公共课在 `00`） |
-| `07` | **外国语学院与国际教育学院** | 外语类专业课程（大学英语在 `00`） |
+## 学院直达
+
+<div class="grid cards" markdown>
+
+-   **`00` 公共与平台课**
+
+    ---
+
+    思政、大学英语、高数、大物、化学…
+
+    [:octicons-arrow-right-24: 打开](06-课程索引.md#cat-00)
+
+-   **`01` 农学**
+
+    ---
+
+    农学院、植保、园艺、林学、动科、动医、茶业…
+
+    [:octicons-arrow-right-24: 打开](06-课程索引.md#cat-01)
+
+-   **`02` 工学**
+
+    ---
+
+    智能制造、机械、材化、资环、人工智能、电气
+
+    [:octicons-arrow-right-24: 打开](06-课程索引.md#cat-02)
+
+-   **`03` 理学**
+
+    ---
+
+    生命科学、生物制造
+
+    [:octicons-arrow-right-24: 打开](06-课程索引.md#cat-03)
+
+-   **`04` 经济管理学院**
+
+    ---
+
+    经管类课程
+
+    [:octicons-arrow-right-24: 打开](06-课程索引.md#cat-04)
+
+-   **`05` 人文社会科学学院**
+
+    ---
+
+    人文社科类课程
+
+    [:octicons-arrow-right-24: 打开](06-课程索引.md#cat-05)
+
+-   **`06` 马克思主义学院**
+
+    ---
+
+    马院专业课程（思政公共课在 `00`）
+
+    [:octicons-arrow-right-24: 打开](06-课程索引.md#cat-06)
+
+-   **`07` 外国语学院与国际教育学院**
+
+    ---
+
+    外语类专业课程（大学英语在 `00`）
+
+    [:octicons-arrow-right-24: 打开](06-课程索引.md#cat-07)
+
+</div>
 
 !!! note "分类小规则"
-    思政课、大学英语是全校公共课，统一放 `00`。`06`、`07` 只放马院和外语学院自己的专业课程。
+    思政课、大学英语是全校公共课，统一放 `00`；`06`、`07` 只放马院和外语学院自己的专业课程。
 
 ## 这里有什么
 
@@ -92,40 +160,10 @@
 
 | 你想做什么 | 怎么做 |
 | :--- | :--- |
-| 只想投资料 | [投稿方式](03-参与共建.md#submit)：不用会 Git，不用加权限 |
+| 只传一两份资料 | [投稿方式](03-参与共建.md#submit)，不用会 Git，不用加权限 |
 | 想长期维护 | [共创者（欢迎自荐）](03-参与共建.md#cobuild) |
 | 不会 GitHub | 发邮件到 [zhang.x.w@ahau.edu.cn](mailto:zhang.x.w@ahau.edu.cn)，我来代传 |
 | 发现问题 | 到 [Issues](https://github.com/lastwejust/Learning-in-AAU/issues) 说一声 |
-
-## 先看这三页
-
-<div class="grid cards" markdown>
-
--   :material-book-open-variant:{ .lg .middle } **使用指南**
-
-    ---
-
-    怎么找、怎么看、怎么下载
-
-    [:octicons-arrow-right-24: 打开](01-使用指南.md)
-
--   :material-folder-cog-outline:{ .lg .middle } **分类与命名**
-
-    ---
-
-    文件放哪、叫什么名字
-
-    [:octicons-arrow-right-24: 打开](02-分类与命名.md)
-
--   :material-alert-outline:{ .lg .middle } **提醒与警告**
-
-    ---
-
-    版权、隐私、考试红线
-
-    [:octicons-arrow-right-24: 打开](04-提醒与警告.md)
-
-</div>
 
 ---
 

@@ -115,8 +115,13 @@ def render(groups, total):
         out.append(f"| **{cat_label(cat)}** | {n_course} | {n_file} | {human(size)} |")
     out.append("")
 
-    for cat in sorted(groups):
-        out.append(f"## {cat_label(cat)}\n")
+    for num in sorted(CATEGORY_NAMES):
+        cat = next((c for c in groups if c.startswith(num)), None)
+        label = CATEGORY_NAMES[num]
+        out.append(f"## {label} {{ #cat-{num} }}\n")
+        if cat is None:
+            out.append("暂时还没有资料。欢迎 [投稿](03-参与共建.md#submit)。\n")
+            continue
         for course in sorted(groups[cat]):
             files = groups[cat][course]
             name = course.split("/")[-1]

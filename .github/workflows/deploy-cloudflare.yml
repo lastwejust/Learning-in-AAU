@@ -3,20 +3,6 @@ name: Mirror to Cloudflare Pages
 on:
   push:
     branches: [main]
-    paths:
-      - "docs/**"
-      - "mkdocs.yml"
-      - "requirements.txt"
-      - "scripts/**"
-      - "00-**"
-      - "01-**"
-      - "02-**"
-      - "03-**"
-      - "04**"
-      - "05-**"
-      - "06-**"
-      - "07-**"
-      - ".github/workflows/deploy-cloudflare.yml"
   workflow_dispatch:
 
 permissions:
@@ -47,6 +33,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          cache: pip
 
       - name: Build site (docs + materials)
         if: steps.check.outputs.skip != 'true'

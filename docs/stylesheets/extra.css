@@ -202,6 +202,26 @@
   max-width: 74rem;
 }
 
+/* 防止宽表格 / 长链接把整页撑破 */
+.md-content,
+.md-content__inner,
+.md-typeset,
+.md-main__inner {
+  min-width: 0;
+}
+
+.md-typeset table:not([class]) {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.md-typeset {
+  overflow-wrap: anywhere;
+}
+
 .md-typeset {
   font-size: 0.78rem;
   line-height: 1.75;
@@ -434,6 +454,39 @@
   justify-content: center;
 }
 
+/* ── 首页提示卡（园艺学院专区） ── */
+.aau-callout {
+  margin: 0 0 1.6rem;
+  padding: 1rem 1.1rem;
+  border-radius: 10px;
+  border: 1px solid rgba(186, 128, 72, 0.35);
+  border-left: 4px solid var(--aau-copper, #BA8048);
+  background: rgba(186, 128, 72, 0.07);
+}
+
+.aau-callout-title {
+  font-weight: 700;
+  color: var(--md-default-fg-color);
+  margin-bottom: 0.35rem;
+}
+
+.aau-callout p {
+  margin: 0.2rem 0;
+  font-size: 0.74rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.aau-callout p.aau-callout-thanks {
+  margin-top: 0.35rem;
+  font-size: 0.68rem;
+  color: var(--md-default-fg-color--lighter);
+}
+
+.aau-callout a {
+  font-weight: 600;
+  word-break: break-all;
+}
+
 /* ── 提示块 ── */
 .md-typeset .admonition,
 .md-typeset details {
@@ -610,13 +663,30 @@
 /* ── 移动端 ── */
 @media screen and (max-width: 76.1875em) {
   .aau-hero {
+    margin-left: 0;
+    margin-right: 0;
     padding: 1.8rem 1.1rem 1.6rem;
     border-radius: 10px;
   }
   .aau-hero h1 {
     font-size: 1.45rem;
   }
+  .aau-callout {
+    margin-left: 0;
+    margin-right: 0;
+  }
   .aau-grid {
     grid-template-columns: 1fr;
+  }
+  /* 表格在窄屏内部横向滚动，不撑破页面 */
+  .md-typeset table:not([class]) {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .md-typeset {
+    overflow-wrap: anywhere;
   }
 }
