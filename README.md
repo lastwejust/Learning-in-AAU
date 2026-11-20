@@ -49,7 +49,7 @@
 
 - **只想投资料**：不用加权限，Fork + PR、Issue 附件、发邮件都可以。
 - **想长期维护**：欢迎自荐；我确认后加 Write 权限，负责一个学院或 1–2 门课。
-- **不会 GitHub**：把文件发到 [zhang.x.w@ahau.edu.cn](mailto:zhang.x.w@ahau.edu.cn)，我来代传。
+- **不会 GitHub**：把文件发到 [zhang.x.w@ahau.edu.cn](mailto:zhang.x.w@stu.ahau.edu.cn)，我来代传。
 
 详细规则见 [参与共建](docs/03-参与共建.md)。
 
